@@ -1,0 +1,7 @@
+# PRÉVIA (rosana.borzanti.com): bloqueia indexação.
+# No domínio oficial, trocar por:
+#   User-agent: *
+#   Allow: /
+#   Sitemap: https://www.rosanaborzan.com.br/sitemap.xml
+User-agent: *
+Disallow: /

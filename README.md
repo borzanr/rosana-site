@@ -19,7 +19,7 @@ HTML + CSS estáticos, sem etapa de build. Hospedado no GitHub Pages.
 | `/grupodbt/` | Redireciona a URL antiga do Wix para `/grupo-dbt/` |
 | `404.html` | Página de erro (caminhos absolutos, servida em qualquer URL) |
 
-Estilos em `assets/css/style.css`; menu mobile e formulário→WhatsApp em `assets/js/main.js`.
+Estilos em `assets/css/style.css`; menu mobile e formulário→WhatsApp em `assets/js/main.js`; imagens em `assets/img/` (copiadas do site Wix).
 
 ## Publicar a prévia (GitHub Pages)
 
@@ -45,7 +45,7 @@ A prévia **não deve ser indexada** para não competir com o domínio oficial:
 - [ ] Remover as linhas `noindex` marcadas com `PRÉVIA` (todas as páginas, exceto `grupodbt/` e `404.html`).
 - [ ] Trocar o `robots.txt` pelo conteúdo indicado no próprio arquivo.
 - [ ] Trocar o `CNAME` para `www.rosanaborzan.com.br` e apontar o DNS.
-- [ ] Copiar as imagens do Wix para `assets/img/` (hoje carregadas de `static.wixstatic.com`) — o Wix deixa de servi-las se o plano for cancelado.
+- [ ] Trocar `https://rosana.borzanti.com/assets/img/` por `https://www.rosanaborzan.com.br/assets/img/` (usado em `og:image` e nos dados estruturados).
 - [ ] Cadastrar o site e o `sitemap.xml` no Google Search Console.
 - [ ] Criar/atualizar o Perfil da Empresa no Google apontando para o site.
 

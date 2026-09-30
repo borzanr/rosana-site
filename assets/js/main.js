@@ -1,5 +1,5 @@
 // Número oficial de WhatsApp (formato internacional, só dígitos)
-const WHATSAPP = "5511998330214";
+const WHATSAPP = "5511921630449";
 
 // Menu mobile
 const toggle = document.querySelector(".nav-toggle");

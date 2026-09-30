@@ -54,6 +54,6 @@ A prévia **não deve ser indexada** para não competir com o domínio oficial:
 - Textos novos escritos para a prévia (psicoterapia, avaliação, palestras, FAQ) — revisar tom e precisão.
 - Avaliação neuropsicológica: faixas etárias atendidas, nº médio de sessões, se emite laudo.
 - Emissão de recibo para reembolso de convênio (pode virar item do FAQ).
-- Grupo DBT: valor e datas da próxima turma.
+- Grupo DBT: datas da próxima turma (valor ficou "a consultar").
 - Livro "Mulheres na Psicologia": confirmar se a participação é no Volume II (capa usada no site).
 - Depoimento de paciente foi **retirado** por cautela com o Código de Ética do CFP.

@@ -55,5 +55,5 @@ A prévia **não deve ser indexada** para não competir com o domínio oficial:
 - Avaliação neuropsicológica: faixas etárias atendidas, nº médio de sessões, se emite laudo.
 - Emissão de recibo para reembolso de convênio (pode virar item do FAQ).
 - Grupo DBT: valor e datas da próxima turma.
+- Livro "Mulheres na Psicologia": confirmar se a participação é no Volume II (capa usada no site).
 - Depoimento de paciente foi **retirado** por cautela com o Código de Ética do CFP.
-- Capas dos livros (fotos) para substituir os cartões tipográficos.

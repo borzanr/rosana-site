@@ -255,23 +255,21 @@ a.card:hover .more::after { transform: translateX(4px); }
 @media (max-width: 860px) { .portrait-badge { right: 12px; } }
 
 /* ---------- Livros ---------- */
-.books { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
-.book {
-  background: var(--olive); color: #fff;
-  border-radius: 6px 14px 14px 6px;
-  padding: 28px 22px 22px 30px;
-  position: relative; min-height: 190px;
-  display: flex; flex-direction: column; justify-content: space-between;
-  box-shadow: var(--shadow);
+.books { display: grid; grid-template-columns: repeat(3, 1fr); gap: 40px; max-width: 900px; margin-inline: auto; }
+.book { margin: 0; display: flex; flex-direction: column; gap: 18px; }
+.book img {
+  width: 100%; aspect-ratio: 69 / 100; object-fit: cover;
+  border-radius: 3px 8px 8px 3px;
+  box-shadow: 0 18px 32px -16px rgba(55, 58, 51, 0.45), 0 2px 6px rgba(55, 58, 51, 0.12);
+  transition: transform 0.3s;
 }
-.book::before {
-  content: ""; position: absolute; left: 10px; top: 0; bottom: 0; width: 2px; background: rgba(255,255,255,0.18);
+.book:hover img { transform: translateY(-4px); }
+.book h3 { font-size: 1.2rem; line-height: 1.3; margin: 0 0 6px; }
+.book span { font-size: 0.78rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--sage); }
+@media (max-width: 860px) {
+  .books { grid-template-columns: repeat(3, 70%); overflow-x: auto; scroll-snap-type: x mandatory; gap: 20px; padding-bottom: 8px; }
+  .book { scroll-snap-align: start; }
 }
-.book:nth-child(2) { background: var(--sage); }
-.book:nth-child(3) { background: #9b7b70; }
-.book h3 { color: #fff; font-size: 1.35rem; margin: 0; }
-.book span { font-size: 0.78rem; letter-spacing: 0.14em; text-transform: uppercase; opacity: 0.8; }
-@media (max-width: 860px) { .books { grid-template-columns: 1fr; } .book { min-height: 0; gap: 18px; } }
 
 /* ---------- Formação ---------- */
 .timeline { list-style: none; margin: 0; padding: 0; border-left: 1px solid var(--line); }

@@ -7,9 +7,11 @@
   --olive: #464a41;
   --olive-deep: #373a33;
   --sage: #72827f;
+  --sage-deep: #5f6f6c;
   --sage-soft: #dfe5e3;
   --rose: #c9a296;
-  --rose-soft: #f3e4df;
+  --rose-soft: #ede1dc;
+  --footer: #424746;
   --cream: #fbf8f6;
   --paper: #ffffff;
   --ink: #2c2f29;
@@ -56,6 +58,7 @@ h1 { font-size: clamp(2.3rem, 5vw, 3.6rem); }
 h2 { font-size: clamp(1.9rem, 3.6vw, 2.7rem); }
 h3 { font-size: 1.55rem; }
 p  { margin: 0 0 1.1em; }
+h1, h2 { color: var(--sage); }
 
 .wrap { width: min(100% - 32px, var(--wrap)); margin-inline: auto; }
 .narrow { max-width: 760px; }
@@ -94,8 +97,8 @@ p  { margin: 0 0 1.1em; }
 }
 .btn:hover { transform: translateY(-1px); }
 .btn svg { width: 1.15em; height: 1.15em; flex: none; }
-.btn-primary { background: var(--olive); color: #fff; }
-.btn-primary:hover { background: var(--olive-deep); color: #fff; }
+.btn-primary { background: var(--sage-deep); color: #fff; }
+.btn-primary:hover { background: var(--olive); color: #fff; }
 .btn-outline { border-color: var(--olive); color: var(--olive); background: transparent; }
 .btn-outline:hover { background: var(--olive); color: #fff; }
 .btn-light { background: #fff; color: var(--olive-deep); }
@@ -163,7 +166,7 @@ p  { margin: 0 0 1.1em; }
 }
 .hero-text { padding-bottom: 72px; }
 .hero h1 { margin-bottom: 0.4em; }
-.hero h1 span { display: block; font-size: 0.55em; font-weight: 500; color: var(--sage); margin-top: 0.35em; }
+.hero h1 span { display: block; font-size: 0.55em; font-weight: 500; color: var(--olive); margin-top: 0.35em; }
 .hero .lead { max-width: 34em; }
 .hero-photo { align-self: end; position: relative; }
 .hero-photo img {
@@ -189,7 +192,7 @@ p  { margin: 0 0 1.1em; }
 }
 
 /* ---------- Faixa de credenciais ---------- */
-.creds { background: var(--olive); color: #eee9e5; padding: 30px 0; }
+.creds { background: var(--sage); color: #f4f1ee; padding: 30px 0; }
 .creds .wrap { display: flex; flex-wrap: wrap; gap: 14px 40px; justify-content: center; text-align: center; }
 .creds strong { display: block; font-family: var(--serif); font-size: 1.6rem; font-weight: 500; color: #fff; line-height: 1.2; }
 .creds span { font-size: 0.85rem; letter-spacing: 0.04em; }
@@ -355,9 +358,9 @@ a.card:hover .more::after { transform: translateX(4px); }
 @media (max-width: 480px) { .team .card { flex-direction: column; } }
 
 /* ---------- Contato ---------- */
-.cta-band { background: var(--olive); color: #eee9e5; }
+.cta-band { background: var(--sage); color: #f4f1ee; }
 .cta-band h2 { color: #fff; }
-.cta-band .lead { color: #d9d3cf; }
+.cta-band .lead { color: #f1eeeb; }
 
 .contact-form {
   background: var(--paper); color: var(--ink);
@@ -377,7 +380,7 @@ a.card:hover .more::after { transform: translateX(4px); }
 .contact-form .btn { width: 100%; justify-content: center; }
 
 /* ---------- Rodapé ---------- */
-.site-footer { background: var(--olive-deep); color: #cfc9c4; padding: 64px 0 28px; font-size: 0.95rem; }
+.site-footer { background: var(--footer); color: #cfc9c4; padding: 64px 0 28px; font-size: 0.95rem; }
 .site-footer a { color: #eee9e5; text-decoration: none; }
 .site-footer a:hover { color: #fff; text-decoration: underline; }
 .footer-grid { display: grid; grid-template-columns: 1.4fr 1fr 1fr; gap: 40px; }
